@@ -1,0 +1,14 @@
+	#HD: Parsing log file "./Synth/Static/create_project.log":
+
+
+	#HD: Parsing log file "./Synth/Static/top_synth_design.rds":
+	CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'count' instantiated as 'inst_count' [C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/ug947-vivado/led_shift_count_k7/Sources/hdl/top/top.v:100]
+	CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'shift' instantiated as 'inst_shift' [C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/ug947-vivado/led_shift_count_k7/Sources/hdl/top/top.v:92]
+
+
+	#HD: Parsing log file "./Synth/Static/temp.log":
+
+
+	#HD: Parsing log file "./Synth/Static/temp.log":
+
+

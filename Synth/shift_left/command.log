@@ -1,0 +1,10 @@
+puts "#HD: Running synthesis for block shift_left"
+puts "	#HD: Setting Tcl Params:"
+set_param hd.visual 1
+create_project -in_memory -part xc7z020clg484-1
+add_files ./Sources/hdl/shift_left/shift_left.v
+synth_design -mode out_of_context -flatten_hierarchy rebuilt -top shift -part xc7z020clg484-1
+write_checkpoint -force ./Synth/shift_left/shift_synth.dcp
+report_utilization -file ./Synth/shift_left/shift_utilization_synth.rpt
+close_project
+puts "#HD: Synthesis of module shift_left complete\n"

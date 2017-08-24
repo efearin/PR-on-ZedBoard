@@ -1,0 +1,177 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 1164
+
+Current time: 	8/13/17 8:04:00 PM EEST
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 144
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=16
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	efear
+User home directory: C:/Users/efear
+User working directory: C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Synth/Static
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/efear/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/efear/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	237 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 431 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bF:g (cq:JFrame):  Reading checkpoint file 'C:\Users\efear\Google Drive\TOBB\ELE519\Projects\Term Project\src\PR_shift_count\Synth\Static\top_synth.dcp' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_checkpoint {C:\Users\efear\Google Drive\TOBB\ELE519\Projects\Term Project\src\PR_shift_count\Synth\Static\top_synth.dcp} 
+// Tcl Message: Command: open_checkpoint {C:\Users\efear\Google Drive\TOBB\ELE519\Projects\Term Project\src\PR_shift_count\Synth\Static\top_synth.dcp} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 30 MB (+29152kb) [00:00:05]
+// [Engine Memory]: 419 MB (+287623kb) [00:00:05]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+17874kb) [00:00:06]
+// [Engine Memory]: 442 MB (+2893kb) [00:00:06]
+// [GUI Memory]: 56 MB (+4618kb) [00:00:07]
+// [GUI Memory]: 72 MB (+14564kb) [00:00:07]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 500 MB. GUI used memory: 31 MB. Current time: 8/13/17 8:04:02 PM EEST
+// [Engine Memory]: 597 MB (+138476kb) [00:00:11]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PHY_BLOCK_NEW
+// TclEventType: PHY_BLOCK_ADD_INST
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: PHY_BLOCK_NEW
+// TclEventType: PHY_BLOCK_ADD_INST
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 31 MB. Current time: 8/13/17 8:04:08 PM EEST
+// [Engine Memory]: 743 MB (+122056kb) [00:00:14]
+// [Engine Memory]: 782 MB (+1711kb) [00:00:15]
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 845 MB (+25317kb) [00:00:15]
+// Xgd.load filename: C:/Xilinx/Vivado/2015.4/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1s
+// Device: addNotify
+// [GUI Memory]: 76 MB (+300kb) [00:00:17]
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4 INFO: [Device 21-403] Loading part xc7z020clg484-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Synth/Static/.Xil/Vivado-1164-DESKTOP-ATPPKRH/dcp/top.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Synth/Static/.Xil/Vivado-1164-DESKTOP-ATPPKRH/dcp/top.xdc] Parsing XDC File [C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Synth/Static/.Xil/Vivado-1164-DESKTOP-ATPPKRH/dcp/top_late.xdc] Finished Parsing XDC File [C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Synth/Static/.Xil/Vivado-1164-DESKTOP-ATPPKRH/dcp/top_late.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1002.172 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1002.172 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Device view-level: 0.0
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: DESIGN_MODE_CHANGE
+// Tcl Message: INFO: [Project 1-604] Checkpoint was created with Vivado v2015.4 (64-bit) build 1412921 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 891 MB (+4032kb) [00:00:19]
+// Tcl Message: open_checkpoint: Time (s): cpu = 00:00:26 ; elapsed = 00:00:15 . Memory (MB): peak = 1144.117 ; gain = 560.930 
+dismissDialog("Reading checkpoint file 'C:\\Users\\efear\\Google Drive\\TOBB\\ELE519\\Projects\\Term Project\\src\\PR_shift_count\\Synth\\Static\\top_synth.dcp'"); // bF:g (cq:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 61 MB. Current time: 8/13/17 8:04:14 PM EEST
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// [GUI Memory]: 82 MB (+1785kb) [00:00:29]
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // ap:ao (R:ak, cq:JFrame)
+// RouteApi::initDelayMediator elapsed time: 15.3s
+// [Engine Memory]: 1,223 MB (+301682kb) [00:00:33]
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // ap:ao (R:ak, cq:JFrame)
+// Tcl Command: 'pwd'
+// Tcl Message: pwd 
+// Tcl Message: C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Synth/Static 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,223 MB. GUI used memory: 61 MB. Current time: 8/13/17 8:04:30 PM EEST
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd ..", true); // ap:ao (R:ak, cq:JFrame)
+// Tcl Command: 'cd ..'
+// Tcl Message: cd .. 
+// [GUI Memory]: 87 MB (+1522kb) [00:00:42]
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd ..", true); // ap:ao (R:ak, cq:JFrame)
+// Tcl Command: 'cd ..'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,236 MB. GUI used memory: 61 MB. Current time: 8/13/17 8:04:37 PM EEST
+// Tcl Message: cd .. 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // ap:ao (R:ak, cq:JFrame)
+// Tcl Command: 'pwd'
+// Tcl Message: pwd 
+// Tcl Message: C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,239 MB. GUI used memory: 61 MB. Current time: 8/13/17 8:04:39 PM EEST
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_xdc ./Sources/xdc/fplan.xdc", true); // ap:ao (R:ak, cq:JFrame)
+// Tcl Command: 'write_xdc ./Sources/xdc/fplan.xdc'
+// Tcl Message: write_xdc ./Sources/xdc/fplan.xdc 
+// Tcl Message: C:/Users/efear/Google Drive/TOBB/ELE519/Projects/Term Project/src/PR_shift_count/Sources/xdc/fplan.xdc 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // ap:ao (R:ak, cq:JFrame)
